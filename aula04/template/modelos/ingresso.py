@@ -27,7 +27,9 @@ class VIP(Ingresso):
 
 # ---------------------------------------------------------------
 # TODO (Parte B): adicione aqui a classe Cortesia
-#
+class Cortesia(Ingresso):
+    def preco(self):
+        return 0.0
 #   class Cortesia(Ingresso):
 #       def preco(self):
 #           return ???   # ingresso gratuito — qual é o valor?
